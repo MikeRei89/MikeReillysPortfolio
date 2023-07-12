@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3d46c0;
@@ -58,7 +58,7 @@ img {
     object-fit: contain; 
 }
 
-.center-aligned-title {
+/* {
     flex: 1;
     text-align: center;
     float: center;
@@ -66,22 +66,7 @@ img {
     padding: 20px;
     border: 3px solid black;
     color: #000000;
-}
-
-summary img {
-    width: 8%;   
-    height: 8%; 
-    object-position: center; 
-    object-fit: scale-down; 
-    flex: center;
-}
-
-summary p {
-    text-align: center;
-    flex: 1;
-    font-size: 16px;
-    color: #000000;
-}
+} */
 
 main {
     margin-bottom: 20px;
