@@ -73,6 +73,14 @@ summary img {
     height: 8%; 
     object-position: center; 
     object-fit: scale-down; 
+    flex: center;
+}
+
+summary p {
+    text-align: center;
+    flex: 1;
+    font-size: 16px;
+    color: #000000;
 }
 
 main {
