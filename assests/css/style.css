@@ -63,15 +63,32 @@ section1 {
     flex-direction: column;
 }
 
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.left-aligned-title {
+    flex: 1;
+    text-align: left;
+}
+
+.right-content {
+    flex: 1;
 }
 
 .box {
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: left;
 }
 
 section h2 {
