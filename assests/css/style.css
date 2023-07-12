@@ -48,6 +48,7 @@ a {
 p {
     flex: 1;
     font-size: 16px;
+    color: #000000;
 }
 
 img {
@@ -74,15 +75,20 @@ section1 {
     justify-content: space-between;
 }
 
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
 
 .left-aligned-title {
-    flex: 1;
+    flex: 0.5;
     text-align: left;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    color: #000000;
 }
 
 /* .box {
@@ -93,14 +99,14 @@ section1 {
     flex-direction: left;
 } */
 
-section h2 {
+/* section h2 {
     flex: 1;
     text-align: left;
     float: left;
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
-}
+} */
 
 /* section{
     margin-bottom: 32px;
