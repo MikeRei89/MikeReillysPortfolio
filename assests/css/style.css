@@ -31,7 +31,8 @@ h1 {
 
 nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
+    text-align: center;
     float: center;
     font-family: 'Charmonman', cursive;
     font-size: 20px;
@@ -57,12 +58,64 @@ img {
     object-fit: contain; 
 }
 
-main {
+/* main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
+} */
+
+main {
+    /* Turns this element into a flexbox */
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+.main-header {
+    display: flex;
+    /* Defines how to distribute the empty space between child elements */
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+
+.card {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+.card h2 {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+.card.camera {
+    /* With a flex-grow value of 2, this element grows twice as wide as others */
+    /* The second value, flex-shrink, defines how the element will shrink if it can't fit */
+    flex: 2 1 200px;
+  }
+
+.sidebar {
+    background-color: #f0f0f0;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 footer {
