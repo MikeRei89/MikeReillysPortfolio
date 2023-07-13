@@ -98,15 +98,18 @@ aside {
 }
 
 #Aboutme {
-
+    padding: 20px;
+    background: #abcbe9;
 }
 
 #Work {
-
+    padding: 20px;
+    background: #abcbe9;
 }
 
 #ContactInformation {
-
+    padding: 20px;
+    background: #abcbe9;
 }
 
 footer {
